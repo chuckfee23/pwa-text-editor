@@ -28,10 +28,12 @@ module.exports = () => {
       }),
       new WebpackPwaManifest({
         name: "Just Another Text Editor",
-        short_name: "JATE",
+        short_name: "J.A.T.E.",
         description: "Progressive web app text editor",
-        display: standalone,
-        background_color: "##2f22a3",
+        // display: 'standalone',
+        orientation: "portrait",
+        background_color: "#2f22a3",
+        theme_color: "#2f22a3",
         start_url: "./",
         publicPath: "./",
         inject: true,
@@ -48,15 +50,17 @@ module.exports = () => {
 
     module: {
       rules: [
+        // css loader
         {
           test: /\.css$/i,
           use: ["style-loader", "css-loader"],
         },
+        //babel
         {
           test: /\.m?js$/,
-          exclude: /node_modules/,
+          exclude: /node_modules|bower_components/,
           use: {
-            loader: "babel_loader",
+            loader: "babel-loader",
             options: {
               presets: ["@babel/preset-env"],
             },
