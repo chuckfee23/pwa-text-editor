@@ -4,7 +4,7 @@
 
 ## Description
 
-This application allows a user to either download and install, or simply use this text editor from the web.
+This is a progressive web application that allows a user to either download and install, or simply use this text editor from the web.
 
 ## Table of Contents
 
