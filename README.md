@@ -22,7 +22,9 @@ Since this is a progressive web application, the user can simply download the ap
 
 Upon accessing the deployed URL, the user has the ability to immediately begin using the text editor. The user can also download it and install to their local maching.
 
-![showing all employees](/client/src/images/Screen%20Shot%202022-10-17%20at%209.51.26%20AM.png)
+![screen shot](/client/src/images/Screen%20Shot%202022-10-17%20at%209.51.26%20AM.png)
+
+[Try me!](https://warm-forest-06819.herokuapp.com/)
 
 ## Contributing
 
